@@ -29,7 +29,7 @@ export default function App() {
       </head>
       <body>
         <div className='w-screen h-screen overflow-hidden flex justify-center items-center'>
-          <img className='w-full h-full' src={banner} alt="The Kollection" />
+          <img className='w-full' src={banner} alt="The Kollection" />
         </div>
         <ScrollRestoration />
         <Scripts />
