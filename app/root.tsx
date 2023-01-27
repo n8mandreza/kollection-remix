@@ -28,9 +28,9 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <div className='w-screen h-screen overflow-hidden flex justify-center items-center'>
+        <a className='w-screen h-screen overflow-hidden flex justify-center items-center' href="https://instagram.com/klctn">
           <img className='w-full' src={banner} alt="The Kollection" />
-        </div>
+        </a>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
